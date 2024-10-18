@@ -1,17 +1,11 @@
 @echo off
+REM Set the classpath to include JUnit 5 and the current directory.
+set CLASSPATH=lib\junit-jupiter-api-5.10.2.jar!;.
 
+REM Compile the ComputeMethods and ComputeMethodsTest classes
+javac -cp %CLASSPATH% computemethodsapp\ComputeMethods.java computemethodsapp\ComputeMethodsTest.java -d bin
 
-rem Set the paths to JUnit libraries (update these paths as necessary)
-set junit_jar=C:\path\to\junit-jupiter-api-5.x.x.jar
-set junit_engine_jar=C:\path\to\junit-jupiter-engine-5.x.x.jar
-set hamcrest_jar=C:\path\to\hamcrest-core-1.3.jar
-
-
-rem Compile the main ComputeMethods class
-javac computemethodsApp\ComputeMethodsApp.java
-
-rem Compile the test class with JUnit
-javac -cp %junit_jar%;%junit_engine_jar%;%hamcrest_jar%; computemethodsApp\ComputeMethodsTest.java
-
-echo -cp %junit_jar%;%junit_engine_jar%;%hamcrest_jar%; Compilation complete!
+REM Notify the user that compilation is complete.
+echo Compilation complete
 pause
+

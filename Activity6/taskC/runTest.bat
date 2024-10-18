@@ -1,13 +1,10 @@
 @echo off
-rem Set the paths to JUnit and Hamcrest libraries
-set junit_jar=path\to\junit-5.8.1.jar
-set hamcrest_jar=path\to\hamcrest-core-1.3.jar
+REM Set the classpath to include JUnit 5 and the current directory
+set CLASSPATH=lib\junit-platform-console-standalone-1.8.1.jar;.
 
-rem Navigate to the source directory
-cd computemethodsapp
+REM Run the tests using JUnit
+java -cp %CLASSPATH% org.junit.platform.console.ConsoleLauncher -cp bin --scan-classpath
 
-rem Run the test using JUnit's console launcher
-java -cp %junit_jar%;%hamcrest_jar%;bin org.junit.platform.console.ConsoleLauncher --scan-classpath --details verbose
-
-echo Test run complete!
-pause
+REM Indicate that tests have run
+echo Test execution complete
+pause 

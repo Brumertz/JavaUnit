@@ -1,0 +1,41 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'22'
+-sourcepath
+'C:/Users/30085204/Documents/NetBeansProjects/JavaUnit/computeMethodsApp/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/30085204/Documents/NetBeansProjects/JavaUnit/computeMethodsApp/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'computeMethodsApp 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'computeMethodsApp 1.0-SNAPSHOT API'
+com.mycompany.computemethodsapp
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\src\main\java = 1728866924912
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\reports\apidocs\allclasses-index.html = 1729217617955
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\reports\apidocs\allpackages-index.html = 1729217617957
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\reports\apidocs\element-list = 1729217617910
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\reports\apidocs\help-doc.html = 1729217617981
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\reports\apidocs\index-all.html = 1729217617973
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\reports\apidocs\index.html = 1729217617978
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\reports\apidocs\member-search-index.js = 1729217617963
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\reports\apidocs\module-search-index.js = 1729217617959
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\reports\apidocs\overview-tree.html = 1729217617945
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\reports\apidocs\package-search-index.js = 1729217617960
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\reports\apidocs\search.html = 1729217617975
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\reports\apidocs\tag-search-index.js = 1729217617964
+C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\reports\apidocs\type-search-index.js = 1729217617961
