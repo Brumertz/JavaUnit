@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.computemethodsapp.ComputeMethodsTest" time="0.066" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.computemethodsapp.ComputeMethodsTest" time="0.07" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,8 @@
     <property name="user.country" value="AU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\30085204\AppData\Local\Temp\surefire10774904930604725251\surefirebooter-20241018101420843_3.jar C:\Users\30085204\AppData\Local\Temp\surefire10774904930604725251 2024-10-18T10-14-20_724-jvmRun1 surefire-20241018101420843_1tmp surefire_0-20241018101420843_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\30085204\AppData\Local\Temp\surefire16132005887286629358\surefirebooter-20241025092429814_3.jar C:\Users\30085204\AppData\Local\Temp\surefire16132005887286629358 2024-10-25T09-24-29_696-jvmRun1 surefire-20241025092429814_1tmp surefire_0-20241025092429814_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="*Test"/>
     <property name="surefire.test.class.path" value="C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\test-classes;C:\Users\30085204\Documents\NetBeansProjects\JavaUnit\computeMethodsApp\target\classes;C:\Users\30085204\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.2\junit-jupiter-api-5.11.2.jar;C:\Users\30085204\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\30085204\.m2\repository\org\junit\platform\junit-platform-commons\1.11.2\junit-platform-commons-1.11.2.jar;C:\Users\30085204\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\30085204"/>
@@ -31,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\30085204\AppData\Local\Temp\surefire10774904930604725251\surefirebooter-20241018101420843_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\30085204\AppData\Local\Temp\surefire16132005887286629358\surefirebooter-20241025092429814_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.2+9-70"/>
@@ -60,22 +59,25 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testFToC" classname="com.mycompany.computemethodsapp.ComputeMethodsTest" time="0.03">
+  <testcase name="testFToC" classname="com.mycompany.computemethodsapp.ComputeMethodsTest" time="0.048">
     <system-out><![CDATA[Starting all tests...
 Setting up before test...
 Running testFToC...
+Success! Converted 100°F to Celsius: 37.77777777777778
 Cleaning up after test...
 ]]></system-out>
   </testcase>
-  <testcase name="testRoll" classname="com.mycompany.computemethodsapp.ComputeMethodsTest" time="0.001">
+  <testcase name="testRoll" classname="com.mycompany.computemethodsapp.ComputeMethodsTest" time="0.004">
     <system-out><![CDATA[Setting up before test...
 Running testRoll...
+Success! Rolled dice with a result: 11
 Cleaning up after test...
 ]]></system-out>
   </testcase>
   <testcase name="testHypotenuse" classname="com.mycompany.computemethodsapp.ComputeMethodsTest" time="0.001">
     <system-out><![CDATA[Setting up before test...
 Running testHypotenuse...
+Success! Calculated hypotenuse for width 3 and height 4: 5.0
 Cleaning up after test...
 ]]></system-out>
   </testcase>

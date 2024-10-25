@@ -1,10 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.computemethodsapp;
- 
-
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -12,6 +6,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+
 /**
  * This class contains unit tests for the ComputeMethods class.
  * It tests temperature conversion, hypotenuse calculation, and dice roll functionality.
@@ -23,8 +18,8 @@ public class ComputeMethodsTest {
 
     // Create an instance of the ComputeMethods class
     ComputeMethods methods;
-    public ComputeMethodsTest(){
-    }
+
+    public ComputeMethodsTest() {}
 
     /**
      * This method runs once before all test methods.
@@ -58,6 +53,7 @@ public class ComputeMethodsTest {
 
         // Check if the actual result matches the expected result (with a small margin of error)
         assertEquals(expectedCelsius, actualCelsius, 0.0001, "Fahrenheit to Celsius conversion failed");
+        System.out.println("Success! Converted 100°F to Celsius: " + actualCelsius);
     }
 
     /**
@@ -74,6 +70,7 @@ public class ComputeMethodsTest {
 
         // Verify if the calculated hypotenuse matches the expected value
         assertEquals(expectedHypotenuse, actualHypotenuse, 0.0001, "Hypotenuse calculation failed");
+        System.out.println("Success! Calculated hypotenuse for width 3 and height 4: " + actualHypotenuse);
     }
 
     /**
@@ -87,6 +84,7 @@ public class ComputeMethodsTest {
 
         // Verify that the dice roll result is between 2 and 12
         assertTrue(rollResult >= 2 && rollResult <= 12, "Dice roll result is out of expected range");
+        System.out.println("Success! Rolled dice with a result: " + rollResult);
     }
 
     /**
