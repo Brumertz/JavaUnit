@@ -1,2 +1,2 @@
-You ordered 100 eggs.
-That is 8 dozen eggs at $7.25 per dozen and 4 additional eggs at $0.75 each for a total of $61.00.
+You ordered 35 eggs.
+That is 2 dozen eggs at $7.25 per dozen and 11 additional eggs at $0.75 each for a total of $22.75.
